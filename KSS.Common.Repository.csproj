@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>KSS.Common.Repository</PackageId>
-    <Version>0.0.0</Version>
+    <Version>1.0.0.1</Version>
     <Authors>Mohammad Alikhanian</Authors>
     <Company>KSS</Company>
     <Description>A brief description of your package.</Description>
@@ -19,8 +19,9 @@
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
-    <PackageReference Include="KSS.Common.Utility" Version="0.0.0" />
+    
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+    <PackageReference Include="KSS.Common.Utility" Version="1.0.0.1" />
   </ItemGroup>
 
 </Project>
