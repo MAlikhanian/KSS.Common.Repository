@@ -4,9 +4,21 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>KSS.Common.Repository</PackageId>
+    <Version>0.0.0</Version>
+    <Authors>Mohammad Alikhanian</Authors>
+    <Company>KSS</Company>
+    <Description>A brief description of your package.</Description>
+    <PackageTags>tag1, tag2</PackageTags>
+    <RepositoryUrl>https://github.com/MAlikhanian/KSS.Common.Repository</RepositoryUrl>
+    <PackageProjectUrl>https://your-project-url.com</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
     <PackageReference Include="KSS.Common.Utility" Version="0.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
   </ItemGroup>
